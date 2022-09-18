@@ -1,0 +1,90 @@
+html{
+    font-family: 'Seymour One', sans-serif, Arial;
+}
+
+body{
+    background-color: #f5bb06;
+    opacity: 1;
+    background-image:  linear-gradient(#663399 1.9000000000000001px, transparent 1.9000000000000001px), linear-gradient(to right, #663399 1.9000000000000001px, #f5bb06 1.9000000000000001px);
+    background-size: 38px 38px;
+}
+
+@keyframes animacao {
+    
+    0% {
+        background-color: #663399;
+        color: #e5e5f7;
+    }
+    
+    50% {
+        background-color: #e5e5f7;
+        color: #663399;
+    }
+    
+    100% {
+        background-color: #663399;
+        color: #e5e5f7;
+    }
+}
+
+
+.bg-color-1{
+    background-color: #ffdd55;
+}
+
+.bg-color-2{
+    background-color: #fcc602;
+}
+
+.bg-color-3{
+    background-color: #f5bb06;
+}
+
+.bg-color-4{
+    background-color: #663399;
+}
+
+.bg-color-5{
+    background-color: #522888;
+}
+
+.color-1{
+    color: #ffdd55;
+}
+
+.color-2{
+    color: #fcc602;
+}
+
+.color-3{
+    color: #f5bb06;
+}
+
+.color-4{
+    color: #663399;
+}
+
+.color-5{
+    color: #522888;
+}
+
+.container{
+    margin: 100px -95px 0px 100px;
+}
+
+.container > img {
+    margin-top: 7.8px;
+    margin-left: 7.8px;
+    width: 378.1px;
+    height: 530.2px;
+}
+
+.display-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.name-titulo{
+    font-size: 30px;
+    margin-top: 45px;
+}
