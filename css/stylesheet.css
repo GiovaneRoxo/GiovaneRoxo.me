@@ -9,21 +9,25 @@ body{
     background-size: 38px 38px;
 }
 
-@keyframes animacao {
+@keyframes left-right {
     
     0% {
-        background-color: #663399;
-        color: #e5e5f7;
-    }
-    
-    50% {
-        background-color: #e5e5f7;
-        color: #663399;
+        margin-left: -650px;
     }
     
     100% {
-        background-color: #663399;
-        color: #e5e5f7;
+          margin-left: 7.8px;
+    }
+}
+
+@keyframes transparencia {
+    
+    0% {
+        color: rgb(red, green, blue, 0%);
+    }
+    
+    100% {
+        color: rgb(red, green, blue, 100%);
     }
 }
 
@@ -69,14 +73,21 @@ body{
 }
 
 .container{
-    margin: 100px -95px 0px 100px;
+    margin-left: 100px;
+    margin-top:  100px;
 }
 
-.container > img {
+
+.left-right {
     margin-top: 7.8px;
     margin-left: 7.8px;
     width: 378.1px;
     height: 530.2px;
+    animation: left-right 6s;
+}
+
+.animation-transparencia{
+    animation: transparencia 6s;
 }
 
 .display-flex {
@@ -84,7 +95,17 @@ body{
     flex-direction: row;
 }
 
-.name-titulo{
-    font-size: 30px;
-    margin-top: 45px;
+.name-title{
+    margin-top: 145px;
+    margin-left: 15px;
+    color: #f5bb06;
+}
+
+.background-name-title{
+    background-color: #522888;
+    margin-top: 145px;
+    margin-left: 600px;
+    position: absolute;
+    width: 100px;
+    height: 37px;
 }
